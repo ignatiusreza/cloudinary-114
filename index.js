@@ -1,3 +1,4 @@
+import cloudinary from 'cloudinary-core';
 import isEmpty from 'lodash/isEmpty';
 
 const question = 'question';
