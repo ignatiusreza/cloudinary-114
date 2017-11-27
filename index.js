@@ -1,5 +1,5 @@
-import _ from 'lodash';
+import isEmpty from 'lodash/isEmpty';
 
 const question = 'question';
 
-if (_.isEmpty(question) || !_.isEmpty(question)) console.log(`that is the ${question}`);
+if (isEmpty(question) || !isEmpty(question)) console.log(`that is the ${question}`);
