@@ -1,0 +1,23 @@
+{
+  "name": "cloudinary-114",
+  "version": "1.0.0",
+  "description": "Sample repo for cloudinary issue",
+  "main": "index.js",
+  "repository": "git@github.com:ignatiusreza/cloudinary-114.git",
+  "author": "Ignatius Reza",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "NODE_ENV=production webpack -p"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "webpack": "^3.8.1",
+    "webpack-bundle-analyzer": "^2.9.1"
+  }
+}
