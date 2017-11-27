@@ -9,6 +9,12 @@ module.exports = {
     filename: "bundle.js",
   },
 
+  resolve: {
+    alias: {
+      "cloudinary-core": "cloudinary-core/cloudinary-core-shrinkwrap"
+    }
+  },
+
   module: {
     rules: [
       { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
