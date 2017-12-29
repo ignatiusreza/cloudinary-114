@@ -16,7 +16,7 @@
     "babel-preset-env": "^1.6.1"
   },
   "dependencies": {
-    "cloudinary-core": "^2.3.0",
+    "cloudinary-core": "https://github.com/ignatiusreza/pkg-cloudinary-core#lodash/diet",
     "lodash": "^4.17.4",
     "webpack": "^3.8.1",
     "webpack-bundle-analyzer": "^2.9.1"

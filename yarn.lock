@@ -847,9 +847,9 @@ cliui@^3.2.0:
     strip-ansi "^3.0.1"
     wrap-ansi "^2.0.0"
 
-cloudinary-core@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/cloudinary-core/-/cloudinary-core-2.3.0.tgz#55eb30198544ef2b2d2523005a6f21d54b708b47"
+"cloudinary-core@https://github.com/ignatiusreza/pkg-cloudinary-core#lodash/diet":
+  version "2.4.0"
+  resolved "https://github.com/ignatiusreza/pkg-cloudinary-core#a745823f306535aedf36d1911424fdd457f4c5f2"
   dependencies:
     lodash ">=3.0"
 
